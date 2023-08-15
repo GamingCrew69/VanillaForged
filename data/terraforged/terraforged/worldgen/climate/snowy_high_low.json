@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:snowy_plains",
+      "weight": 0.6
+    },
+    {
+      "value": "minecraft:snowy_taiga",
+      "weight": 0.9
+    },
+    {
+    "value": "minecraft:grove",
+    "weight": 1.2
+    }
+  ]
+}

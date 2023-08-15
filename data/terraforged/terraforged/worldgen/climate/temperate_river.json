@@ -1,0 +1,8 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:river",
+      "weight": 1.0
+    }
+  ]
+}

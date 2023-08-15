@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:jungle",
+      "weight": 0.6
+    },
+    {
+      "value": "minecraft:sparse_jungle",
+      "weight": 1.0
+    }
+  ]
+}

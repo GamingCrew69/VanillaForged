@@ -1,0 +1,8 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:savanna",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:cold_ocean",
+      "weight": 1.0
+    }
+  ]
+}

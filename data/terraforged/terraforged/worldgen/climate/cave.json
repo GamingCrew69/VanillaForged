@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:dripstone_caves",
+      "weight": 0.25
+    },
+    {
+      "value": "minecraft:lush_caves",
+      "weight": 0.35
+    },
+    {
+      "value": "terraforged:cave",
+      "weight": 2.0
+    }
+  ]
+}

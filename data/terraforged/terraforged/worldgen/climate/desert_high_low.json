@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:desert",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:stony_peaks",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:beach",
+      "weight": 1.0
+    },
+        {
+      "value": "minecraft:stony_shore",
+      "weight": 0.3
+    }
+  ]
+}

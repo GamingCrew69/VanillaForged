@@ -1,0 +1,8 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:windswept_savanna",
+      "weight": 0.7
+    }
+  ]
+}

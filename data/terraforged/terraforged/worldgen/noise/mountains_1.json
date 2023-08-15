@@ -1,0 +1,104 @@
+{
+  "type": "terraforged:scale",
+  "scale": {
+    "type": "terraforged:constant",
+    "value": 1.274
+  },
+  "source": {
+    "type": "terraforged:warp",
+    "domain": {
+      "type": "terraforged:direction_warp",
+      "direction": {
+        "type": "terraforged:perlin",
+        "frequency": 0.1,
+        "seed": 50
+      },
+      "strength": {
+        "type": "terraforged:constant",
+        "value": 2.0
+      }
+    },
+    "source": {
+      "type": "terraforged:valley",
+      "ridge": {
+        "amplitude": 0.2,
+        "blend_mode": "constant",
+        "falloff": 0.6,
+        "grid_size": 128.0,
+        "lacunarity": 3.1,
+        "octaves": 5,
+        "seed": 51,
+        "strength": 0.65
+      },
+      "source": {
+        "type": "terraforged:warp",
+        "domain": {
+          "type": "terraforged:domain_warp",
+          "distance": {
+            "type": "terraforged:constant",
+            "value": 150.0
+          },
+          "x": {
+            "type": "terraforged:map",
+            "max": {
+              "type": "terraforged:constant",
+              "value": 0.5
+            },
+            "min": {
+              "type": "terraforged:constant",
+              "value": -0.5
+            },
+            "source": {
+              "type": "terraforged:perlin",
+              "frequency": 0.0028571428,
+              "seed": 49
+            }
+          },
+          "y": {
+            "type": "terraforged:map",
+            "max": {
+              "type": "terraforged:constant",
+              "value": 0.5
+            },
+            "min": {
+              "type": "terraforged:constant",
+              "value": -0.5
+            },
+            "source": {
+              "type": "terraforged:perlin",
+              "frequency": 0.0028571428,
+              "seed": 50
+            }
+          }
+        },
+        "source": {
+          "type": "terraforged:mul",
+          "modules": [
+            {
+              "type": "terraforged:ridge",
+              "frequency": 0.0016393443,
+              "gain": 1.15,
+              "interpolation": "curve3",
+              "lacunarity": 2.35,
+              "octaves": 4,
+              "seed": 47
+            },
+            {
+              "type": "terraforged:alpha",
+              "alpha": {
+                "type": "terraforged:constant",
+                "value": 0.075
+              },
+              "source": {
+                "type": "terraforged:perlin",
+                "frequency": 0.041666668,
+                "octaves": 4,
+                "seed": 48
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

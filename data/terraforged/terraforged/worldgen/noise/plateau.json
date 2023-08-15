@@ -1,0 +1,436 @@
+{
+  "type": "terraforged:scale",
+  "scale": {
+    "type": "terraforged:constant",
+    "value": 0.4655
+  },
+  "source": {
+    "type": "terraforged:add",
+    "modules": [
+      {
+        "type": "terraforged:terrace",
+        "blend": 0.4,
+        "cliff": {
+          "type": "terraforged:constant",
+          "value": 0.15
+        },
+        "ramp": {
+          "type": "terraforged:constant",
+          "value": 0.9
+        },
+        "ramp_height": {
+          "type": "terraforged:constant",
+          "value": 0.35
+        },
+        "source": {
+          "type": "terraforged:add",
+          "modules": [
+            {
+              "type": "terraforged:mul",
+              "modules": [
+                {
+                  "type": "terraforged:warp",
+                  "domain": {
+                    "type": "terraforged:domain_warp",
+                    "distance": {
+                      "type": "terraforged:constant",
+                      "value": 15.0
+                    },
+                    "x": {
+                      "type": "terraforged:map",
+                      "max": {
+                        "type": "terraforged:constant",
+                        "value": 0.5
+                      },
+                      "min": {
+                        "type": "terraforged:constant",
+                        "value": -0.5
+                      },
+                      "source": {
+                        "type": "terraforged:perlin",
+                        "frequency": 0.05,
+                        "seed": 25
+                      }
+                    },
+                    "y": {
+                      "type": "terraforged:map",
+                      "max": {
+                        "type": "terraforged:constant",
+                        "value": 0.5
+                      },
+                      "min": {
+                        "type": "terraforged:constant",
+                        "value": -0.5
+                      },
+                      "source": {
+                        "type": "terraforged:perlin",
+                        "frequency": 0.05,
+                        "seed": 26
+                      }
+                    }
+                  },
+                  "source": {
+                    "type": "terraforged:warp",
+                    "domain": {
+                      "type": "terraforged:domain_warp",
+                      "distance": {
+                        "type": "terraforged:constant",
+                        "value": 150.0
+                      },
+                      "x": {
+                        "type": "terraforged:map",
+                        "max": {
+                          "type": "terraforged:constant",
+                          "value": 0.5
+                        },
+                        "min": {
+                          "type": "terraforged:constant",
+                          "value": -0.5
+                        },
+                        "source": {
+                          "type": "terraforged:perlin",
+                          "frequency": 0.01,
+                          "seed": 24
+                        }
+                      },
+                      "y": {
+                        "type": "terraforged:map",
+                        "max": {
+                          "type": "terraforged:constant",
+                          "value": 0.5
+                        },
+                        "min": {
+                          "type": "terraforged:constant",
+                          "value": -0.5
+                        },
+                        "source": {
+                          "type": "terraforged:perlin",
+                          "frequency": 0.01,
+                          "seed": 25
+                        }
+                      }
+                    },
+                    "source": {
+                      "type": "terraforged:invert",
+                      "source": {
+                        "type": "terraforged:ridge",
+                        "frequency": 0.002,
+                        "gain": 0.5,
+                        "interpolation": "curve3",
+                        "lacunarity": 2.0,
+                        "octaves": 1,
+                        "seed": 23
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "terraforged:bias",
+                  "bias": {
+                    "type": "terraforged:constant",
+                    "value": 0.3
+                  },
+                  "source": {
+                    "type": "terraforged:scale",
+                    "scale": {
+                      "type": "terraforged:constant",
+                      "value": 0.6
+                    },
+                    "source": {
+                      "type": "terraforged:cubic",
+                      "frequency": 0.002,
+                      "seed": 31
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "terraforged:mul",
+              "modules": [
+                {
+                  "type": "terraforged:scale",
+                  "scale": {
+                    "type": "terraforged:constant",
+                    "value": 0.15
+                  },
+                  "source": {
+                    "type": "terraforged:warp",
+                    "domain": {
+                      "type": "terraforged:domain_warp",
+                      "distance": {
+                        "type": "terraforged:constant",
+                        "value": 20.0
+                      },
+                      "x": {
+                        "type": "terraforged:map",
+                        "max": {
+                          "type": "terraforged:constant",
+                          "value": 0.5
+                        },
+                        "min": {
+                          "type": "terraforged:constant",
+                          "value": -0.5
+                        },
+                        "source": {
+                          "type": "terraforged:perlin",
+                          "frequency": 0.025,
+                          "octaves": 2,
+                          "seed": 28
+                        }
+                      },
+                      "y": {
+                        "type": "terraforged:map",
+                        "max": {
+                          "type": "terraforged:constant",
+                          "value": 0.5
+                        },
+                        "min": {
+                          "type": "terraforged:constant",
+                          "value": -0.5
+                        },
+                        "source": {
+                          "type": "terraforged:perlin",
+                          "frequency": 0.025,
+                          "octaves": 2,
+                          "seed": 29
+                        }
+                      }
+                    },
+                    "source": {
+                      "type": "terraforged:warp",
+                      "domain": {
+                        "type": "terraforged:domain_warp",
+                        "distance": {
+                          "type": "terraforged:constant",
+                          "value": 150.0
+                        },
+                        "x": {
+                          "type": "terraforged:map",
+                          "max": {
+                            "type": "terraforged:constant",
+                            "value": 0.5
+                          },
+                          "min": {
+                            "type": "terraforged:constant",
+                            "value": -0.5
+                          },
+                          "source": {
+                            "type": "terraforged:perlin",
+                            "frequency": 0.0033333334,
+                            "seed": 27
+                          }
+                        },
+                        "y": {
+                          "type": "terraforged:map",
+                          "max": {
+                            "type": "terraforged:constant",
+                            "value": 0.5
+                          },
+                          "min": {
+                            "type": "terraforged:constant",
+                            "value": -0.5
+                          },
+                          "source": {
+                            "type": "terraforged:perlin",
+                            "frequency": 0.0033333334,
+                            "seed": 28
+                          }
+                        }
+                      },
+                      "source": {
+                        "type": "terraforged:ridge",
+                        "frequency": 0.006666667,
+                        "gain": 0.5,
+                        "interpolation": "curve3",
+                        "lacunarity": 2.45,
+                        "octaves": 3,
+                        "seed": 26
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "terraforged:map",
+                  "max": {
+                    "type": "terraforged:constant",
+                    "value": 1.0
+                  },
+                  "min": {
+                    "type": "terraforged:constant",
+                    "value": 0.0
+                  },
+                  "source": {
+                    "type": "terraforged:clamp",
+                    "max": {
+                      "type": "terraforged:constant",
+                      "value": 0.1
+                    },
+                    "min": {
+                      "type": "terraforged:constant",
+                      "value": 0.02
+                    },
+                    "source": {
+                      "type": "terraforged:warp",
+                      "domain": {
+                        "type": "terraforged:domain_warp",
+                        "distance": {
+                          "type": "terraforged:constant",
+                          "value": 15.0
+                        },
+                        "x": {
+                          "type": "terraforged:map",
+                          "max": {
+                            "type": "terraforged:constant",
+                            "value": 0.5
+                          },
+                          "min": {
+                            "type": "terraforged:constant",
+                            "value": -0.5
+                          },
+                          "source": {
+                            "type": "terraforged:perlin",
+                            "frequency": 0.05,
+                            "seed": 25
+                          }
+                        },
+                        "y": {
+                          "type": "terraforged:map",
+                          "max": {
+                            "type": "terraforged:constant",
+                            "value": 0.5
+                          },
+                          "min": {
+                            "type": "terraforged:constant",
+                            "value": -0.5
+                          },
+                          "source": {
+                            "type": "terraforged:perlin",
+                            "frequency": 0.05,
+                            "seed": 26
+                          }
+                        }
+                      },
+                      "source": {
+                        "type": "terraforged:warp",
+                        "domain": {
+                          "type": "terraforged:domain_warp",
+                          "distance": {
+                            "type": "terraforged:constant",
+                            "value": 150.0
+                          },
+                          "x": {
+                            "type": "terraforged:map",
+                            "max": {
+                              "type": "terraforged:constant",
+                              "value": 0.5
+                            },
+                            "min": {
+                              "type": "terraforged:constant",
+                              "value": -0.5
+                            },
+                            "source": {
+                              "type": "terraforged:perlin",
+                              "frequency": 0.01,
+                              "seed": 24
+                            }
+                          },
+                          "y": {
+                            "type": "terraforged:map",
+                            "max": {
+                              "type": "terraforged:constant",
+                              "value": 0.5
+                            },
+                            "min": {
+                              "type": "terraforged:constant",
+                              "value": -0.5
+                            },
+                            "source": {
+                              "type": "terraforged:perlin",
+                              "frequency": 0.01,
+                              "seed": 25
+                            }
+                          }
+                        },
+                        "source": {
+                          "type": "terraforged:invert",
+                          "source": {
+                            "type": "terraforged:ridge",
+                            "frequency": 0.002,
+                            "gain": 0.5,
+                            "interpolation": "curve3",
+                            "lacunarity": 2.0,
+                            "octaves": 1,
+                            "seed": 23
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "steps": 4
+      },
+      {
+        "type": "terraforged:warp",
+        "domain": {
+          "type": "terraforged:domain_warp",
+          "distance": {
+            "type": "terraforged:constant",
+            "value": 20.0
+          },
+          "x": {
+            "type": "terraforged:map",
+            "max": {
+              "type": "terraforged:constant",
+              "value": 0.5
+            },
+            "min": {
+              "type": "terraforged:constant",
+              "value": -0.5
+            },
+            "source": {
+              "type": "terraforged:perlin",
+              "frequency": 0.025,
+              "octaves": 2,
+              "seed": 30
+            }
+          },
+          "y": {
+            "type": "terraforged:map",
+            "max": {
+              "type": "terraforged:constant",
+              "value": 0.5
+            },
+            "min": {
+              "type": "terraforged:constant",
+              "value": -0.5
+            },
+            "source": {
+              "type": "terraforged:perlin",
+              "frequency": 0.025,
+              "octaves": 2,
+              "seed": 31
+            }
+          }
+        },
+        "source": {
+          "type": "terraforged:scale",
+          "scale": {
+            "type": "terraforged:constant",
+            "value": 0.05
+          },
+          "source": {
+            "type": "terraforged:perlin",
+            "frequency": 0.05,
+            "octaves": 3,
+            "seed": 29
+          }
+        }
+      }
+    ]
+  }
+}
