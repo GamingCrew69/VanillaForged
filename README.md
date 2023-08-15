@@ -3,6 +3,7 @@ A vanilla inspired preset for the ReTerraForged world generation mod.
 
 
 Usage:
+
   1.When creating a world, go to the "more" tab (1.19.4+) and click on "datapacks". 
 
   2.Add VanillaForged.zip to the datapacks by adding it into the folder that opens when you click "open datapack folder". 
