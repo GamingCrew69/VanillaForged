@@ -22,8 +22,31 @@
               1.0
             ],
             "height": [
-              0.15,
+              0.18,
               0.35
+            ],
+            "moisture": [
+              0.0,
+              1.0
+            ],
+            "river": [
+              0.05,
+              1.0
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ]
+          },
+          {
+            "climate": "terraforged:temperate_low",
+            "continentalness": [
+              0.51,
+              1.0
+            ],
+            "height": [
+              0.15,
+              0.18
             ],
             "moisture": [
               0.0,
@@ -825,7 +848,7 @@
             "erosion_rate": 0.5
           },
           "world": {
-            "continent_scale": 400,
+            "continent_scale": 600,
             "control_points": {
               "beach": 0.327,
               "coast": 0.448,
