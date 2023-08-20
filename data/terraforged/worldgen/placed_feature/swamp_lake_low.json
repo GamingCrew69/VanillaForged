@@ -1,0 +1,47 @@
+{
+  "feature": "terraforged:low_lake",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 3,
+            "weight": 9
+          },
+          {
+            "data": 4,
+            "weight": 3
+          },
+          {
+            "data": 5,
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 64
+        },
+        "min_inclusive": {
+          "absolute": 62
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
