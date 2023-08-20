@@ -2,11 +2,15 @@
   "biomes": [
     {
       "value": "minecraft:beach",
-      "weight": 1.0
+      "weight": 2.0
     },
-        {
+    {
       "value": "minecraft:stony_shore",
       "weight": 0.3
+    },
+    {
+      "value": "minecraft:swamp",
+      "weight": 0.1
     }
   ]
 }

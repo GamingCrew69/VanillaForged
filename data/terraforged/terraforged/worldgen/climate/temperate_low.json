@@ -1,0 +1,40 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:plains",
+      "weight": 0.9
+    },
+    {
+      "value": "minecraft:sunflower_plains",
+      "weight": 0.20
+    },
+    {
+      "value": "minecraft:forest",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:flower_forest",
+      "weight": 0.20
+    },
+    {
+      "value": "minecraft:birch_forest",
+      "weight": 0.8
+    },
+    {
+      "value": "minecraft:old_growth_birch_forest",
+      "weight": 0.25
+    },
+    {
+      "value": "minecraft:dark_forest",
+      "weight": 0.5
+    },
+    {
+      "value": "minecraft:swamp",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:mangrove_swamp",
+      "weight": 0.4
+    }
+  ]
+}

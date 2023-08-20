@@ -2,7 +2,15 @@
   "biomes": [
     {
       "value": "minecraft:river",
-      "weight": 1.0
+      "weight": 4.0
+    },
+    {
+      "value": "minecraft:swamp",
+      "weight": 0.1
+    },
+    {
+      "value": "minecraft:mangrove_swamp",
+      "weight": 0.05
     }
   ]
 }
