@@ -9,7 +9,7 @@
         "coast_max": 0.55,
         "continent": {
           "type": "reterraforged:holder",
-          "value": "reterraforged:continent"
+          "value": "vanillaforged:continent"
         },
         "land": {
           "type": "reterraforged:freq",
@@ -120,98 +120,98 @@
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/steppe"
+                              "value": "vanillaforged:terrain/steppe"
                             },
                             "weight": 0.55
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/plains"
+                              "value": "vanillaforged:terrain/plains"
                             },
                             "weight": 0.6
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/hills_1"
+                              "value": "vanillaforged:terrain/hills_1"
                             },
                             "weight": 0.55
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/hills_2"
+                              "value": "vanillaforged:terrain/hills_2"
                             },
                             "weight": 0.55
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/dales"
+                              "value": "vanillaforged:terrain/dales"
                             },
                             "weight": 0.45
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/plateau"
+                              "value": "vanillaforged:terrain/plateau"
                             },
                             "weight": 0.45
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/badlands"
+                              "value": "vanillaforged:terrain/badlands"
                             },
                             "weight": 0.65
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/torridonian"
+                              "value": "vanillaforged:terrain/torridonian"
                             },
                             "weight": 0.65
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/mountains_1"
+                              "value": "vanillaforged:terrain/mountains_1"
                             },
                             "weight": 0.55
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/mountains_2"
+                              "value": "vanillaforged:terrain/mountains_2"
                             },
                             "weight": 0.45
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/mountains_3"
+                              "value": "vanillaforged:terrain/mountains_3"
                             },
                             "weight": 0.45
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/dolomites"
+                              "value": "vanillaforged:terrain/dolomites"
                             },
                             "weight": 0.45
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/mountains_ridge_1"
+                              "value": "vanillaforged:terrain/mountains_ridge_1"
                             },
                             "weight": 0.45
                           },
                           {
                             "value": {
                               "type": "reterraforged:holder",
-                              "value": "reterraforged:terrain/mountains_ridge_2"
+                              "value": "vanillaforged:terrain/mountains_ridge_2"
                             },
                             "weight": 0.45
                           }
