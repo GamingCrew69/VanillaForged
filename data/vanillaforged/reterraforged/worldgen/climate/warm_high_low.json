@@ -1,6 +1,10 @@
 {
   "biomes": [
     {
+      "value": "minecraft:meadow",
+      "weight": 0.7
+    },
+    {
       "value": "minecraft:plains",
       "weight": 0.75
     },
