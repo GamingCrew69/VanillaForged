@@ -1,0 +1,7 @@
+{
+  "type": "reterraforged:noise",
+  "noise": {
+    "type": "reterraforged:holder",
+    "value": "vanillaforged:climate/humidity"
+  }
+}

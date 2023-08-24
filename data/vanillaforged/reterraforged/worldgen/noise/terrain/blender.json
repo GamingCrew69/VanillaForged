@@ -1,0 +1,328 @@
+{
+  "type": "reterraforged:floor",
+  "source": {
+    "type": "reterraforged:mul",
+    "modules": [
+      {
+        "type": "reterraforged:continent_lerp",
+        "beach_max": 0.5,
+        "coast_max": 0.55,
+        "continent": {
+          "type": "reterraforged:holder",
+          "value": "reterraforged:continent"
+        },
+        "land": {
+          "type": "reterraforged:freq",
+          "source": {
+            "type": "reterraforged:add",
+            "modules": [
+              {
+                "type": "reterraforged:add",
+                "modules": [
+                  {
+                    "type": "reterraforged:constant",
+                    "value": 0.12916666
+                  },
+                  {
+                    "type": "reterraforged:mul",
+                    "modules": [
+                      {
+                        "type": "reterraforged:map_range",
+                        "max": 0.775,
+                        "min": 0.53499997,
+                        "source": {
+                          "type": "reterraforged:warp",
+                          "domain": {
+                            "type": "reterraforged:domain_warp",
+                            "distance": {
+                              "type": "reterraforged:constant",
+                              "value": 0.2
+                            },
+                            "x": {
+                              "type": "reterraforged:shift",
+                              "amount": 80,
+                              "source": {
+                                "type": "reterraforged:perlin",
+                                "frequency": 3.0,
+                                "gain": 0.3,
+                                "lacunarity": 2.2,
+                                "octaves": 3
+                              }
+                            },
+                            "y": {
+                              "type": "reterraforged:shift",
+                              "amount": 81,
+                              "source": {
+                                "type": "reterraforged:perlin",
+                                "frequency": 3.0,
+                                "gain": 0.3,
+                                "lacunarity": 2.2,
+                                "octaves": 3
+                              }
+                            }
+                          },
+                          "source": {
+                            "type": "reterraforged:freq",
+                            "source": {
+                              "type": "reterraforged:continent",
+                              "cell_shape": "square",
+                              "cell_source": {
+                                "type": "reterraforged:shift",
+                                "amount": 656,
+                                "source": {
+                                  "type": "reterraforged:freq",
+                                  "source": {
+                                    "type": "reterraforged:cell_source",
+                                    "value": "perlin"
+                                  },
+                                  "x": {
+                                    "type": "reterraforged:constant",
+                                    "value": 0.2
+                                  },
+                                  "y": {
+                                    "type": "reterraforged:constant",
+                                    "value": 0.2
+                                  }
+                                }
+                              },
+                              "falloff": 1.0,
+                              "jitter": 0.75
+                            },
+                            "x": {
+                              "type": "reterraforged:constant",
+                              "value": 0.002
+                            },
+                            "y": {
+                              "type": "reterraforged:constant",
+                              "value": 0.002
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "reterraforged:constant",
+                        "value": 0.26666668
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "reterraforged:mul",
+                "modules": [
+                  {
+                    "type": "reterraforged:mul",
+                    "modules": [
+                      {
+                        "type": "reterraforged:blender",
+                        "blending": 0.4,
+                        "noise": [
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/steppe"
+                            },
+                            "weight": 0.55
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/plains"
+                            },
+                            "weight": 0.6
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/hills_1"
+                            },
+                            "weight": 0.55
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/hills_2"
+                            },
+                            "weight": 0.55
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/dales"
+                            },
+                            "weight": 0.45
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/plateau"
+                            },
+                            "weight": 0.45
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/badlands"
+                            },
+                            "weight": 0.65
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/torridonian"
+                            },
+                            "weight": 0.65
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/mountains_1"
+                            },
+                            "weight": 0.55
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/mountains_2"
+                            },
+                            "weight": 0.45
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/mountains_3"
+                            },
+                            "weight": 0.45
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/dolomites"
+                            },
+                            "weight": 0.45
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/mountains_ridge_1"
+                            },
+                            "weight": 0.45
+                          },
+                          {
+                            "value": {
+                              "type": "reterraforged:holder",
+                              "value": "reterraforged:terrain/mountains_ridge_2"
+                            },
+                            "weight": 0.45
+                          }
+                        ],
+                        "region_jitter": 0.8,
+                        "region_scale": 800.0,
+                        "region_warp": {
+                          "type": "reterraforged:shift_warp",
+                          "delegate": {
+                            "type": "reterraforged:domain_warp",
+                            "distance": {
+                              "type": "reterraforged:constant",
+                              "value": 320.0
+                            },
+                            "x": {
+                              "type": "reterraforged:shift",
+                              "amount": 0,
+                              "source": {
+                                "type": "reterraforged:legacy_simplex",
+                                "frequency": 0.00125,
+                                "octaves": 3
+                              }
+                            },
+                            "y": {
+                              "type": "reterraforged:shift",
+                              "amount": 1,
+                              "source": {
+                                "type": "reterraforged:legacy_simplex",
+                                "frequency": 0.00125,
+                                "octaves": 3
+                              }
+                            }
+                          },
+                          "source": 12678
+                        }
+                      },
+                      {
+                        "type": "reterraforged:constant",
+                        "value": 0.6041666
+                      }
+                    ]
+                  },
+                  {
+                    "type": "reterraforged:constant",
+                    "value": 1.2
+                  }
+                ]
+              }
+            ]
+          },
+          "x": {
+            "type": "reterraforged:constant",
+            "value": 0.46411484
+          },
+          "y": {
+            "type": "reterraforged:constant",
+            "value": 0.46411484
+          }
+        },
+        "min_height": 0.12916666,
+        "ocean": {
+          "type": "reterraforged:freq",
+          "source": {
+            "type": "reterraforged:add",
+            "modules": [
+              {
+                "type": "reterraforged:mul",
+                "modules": [
+                  {
+                    "type": "reterraforged:scale",
+                    "scale": {
+                      "type": "reterraforged:constant",
+                      "value": 0.4
+                    },
+                    "source": {
+                      "type": "reterraforged:shift",
+                      "amount": 8763214,
+                      "source": {
+                        "type": "reterraforged:legacy_simplex",
+                        "frequency": 0.015625,
+                        "octaves": 3
+                      }
+                    }
+                  },
+                  {
+                    "type": "reterraforged:constant",
+                    "value": 0.08333333
+                  }
+                ]
+              },
+              {
+                "type": "reterraforged:constant",
+                "value": 0.045833334
+              }
+            ]
+          },
+          "x": {
+            "type": "reterraforged:constant",
+            "value": 0.46411484
+          },
+          "y": {
+            "type": "reterraforged:constant",
+            "value": 0.46411484
+          }
+        },
+        "ocean_max": 0.25
+      },
+      {
+        "type": "reterraforged:constant",
+        "value": 480.0
+      }
+    ]
+  }
+}

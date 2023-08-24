@@ -1,0 +1,53 @@
+{
+  "type": "reterraforged:warp",
+  "domain": {
+    "type": "reterraforged:domain_warp",
+    "distance": {
+      "type": "reterraforged:constant",
+      "value": 60.0
+    },
+    "x": {
+      "type": "reterraforged:shift",
+      "amount": 82,
+      "source": {
+        "type": "reterraforged:simplex",
+        "frequency": 0.0125,
+        "gain": 0.3,
+        "lacunarity": 2.4,
+        "octaves": 3
+      }
+    },
+    "y": {
+      "type": "reterraforged:shift",
+      "amount": 83,
+      "source": {
+        "type": "reterraforged:simplex",
+        "frequency": 0.0125,
+        "gain": 0.3,
+        "lacunarity": 2.4,
+        "octaves": 3
+      }
+    }
+  },
+  "source": {
+    "type": "reterraforged:freq",
+    "source": {
+      "type": "reterraforged:shift",
+      "amount": 1235785,
+      "source": {
+        "type": "reterraforged:weirdness",
+        "frequency": 1.0,
+        "jitter": 0.8,
+        "shape": "square"
+      }
+    },
+    "x": {
+      "type": "reterraforged:constant",
+      "value": 0.002
+    },
+    "y": {
+      "type": "reterraforged:constant",
+      "value": 0.002
+    }
+  }
+}

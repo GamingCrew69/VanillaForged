@@ -1,0 +1,77 @@
+{
+  "type": "reterraforged:warp",
+  "domain": {
+    "type": "reterraforged:domain_warp",
+    "distance": {
+      "type": "reterraforged:constant",
+      "value": 0.04
+    },
+    "x": {
+      "type": "reterraforged:shift",
+      "amount": 78,
+      "source": {
+        "type": "reterraforged:legacy_simplex",
+        "frequency": 30.0
+      }
+    },
+    "y": {
+      "type": "reterraforged:shift",
+      "amount": 79,
+      "source": {
+        "type": "reterraforged:legacy_simplex",
+        "frequency": 30.0
+      }
+    }
+  },
+  "source": {
+    "type": "reterraforged:river",
+    "frequency": 25.0,
+    "lake": {
+      "bank_depth": {
+        "max": 3.0,
+        "min": 1.25
+      },
+      "bank_width": {
+        "max": 3.0,
+        "min": 1.25
+      },
+      "bed_depth": {
+        "max": 8.0,
+        "min": 1.25
+      },
+      "bed_width": {
+        "max": 15.0,
+        "min": 1.0
+      },
+      "erosion": 0.075,
+      "valley_width": {
+        "max": 200.0,
+        "min": 80.0
+      }
+    },
+    "lake_density": 0.75,
+    "river": {
+      "bank_depth": {
+        "max": 3.0,
+        "min": 1.25
+      },
+      "bank_width": {
+        "max": 3.0,
+        "min": 1.25
+      },
+      "bed_depth": {
+        "max": 5.0,
+        "min": 1.25
+      },
+      "bed_width": {
+        "max": 7.0,
+        "min": 1.0
+      },
+      "erosion": 0.075,
+      "valley_width": {
+        "max": 200.0,
+        "min": 80.0
+      }
+    }
+  }
+}

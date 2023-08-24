@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:stony_peaks",
+      "weight": 0.25
+    },
+    {
+      "value": "minecraft:meadow",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:plains",
+      "weight": 0.7
+    }
+  ]
+}

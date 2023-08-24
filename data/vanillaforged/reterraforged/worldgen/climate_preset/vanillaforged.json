@@ -1,0 +1,1055 @@
+ [
+  {
+    "climates": "vanillaforged:temperate",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.3,
+        0.7
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.32,
+        0.7
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.32,
+        0.7
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:warm_high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.32,
+        0.65
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:warm_high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.32,
+        0.65
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:desert",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        0.3
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:desert_high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        0.3
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:desert_high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        0.3
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:badlands",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.3,
+        0.45
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:badlands_high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.3,
+        0.45
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:badlands_high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.3,
+        0.45
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:savanna",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.45,
+        0.7
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:savanna_high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.45,
+        0.7
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:savanna_high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.45,
+        0.7
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:jungle",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.7,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:jungle_high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.7,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:jungle_high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.7,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.7,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:cold",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.12,
+        0.3
+      ],
+      "weirdness": 0.0
+    }
+  },
+    {
+    "climates": "vanillaforged:snowy",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        0.12
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:snowy_high_low",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.70,
+        0.75
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        0.32
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:snowy_high_mid",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.65,
+        0.70
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        0.32
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:peak",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.0,
+        0.65
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        0.6
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:warm_peak",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.0,
+        0.65
+      ],
+      "erosion": [
+        0.05,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.6,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:temperate_river",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.0,
+        0.05
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.3,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:cold_river",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.0,
+        0.05
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.10,
+        0.3
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:frozen_river",
+    "point": {
+      "continentalness": [
+        0.51,
+        1.0
+      ],
+      "depth":[
+        0.75,
+        0.9
+      ],
+      "erosion": [
+        0.0,
+        0.05
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        0.10
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:temperate_beach",
+    "point": {
+      "continentalness": [
+        0.45,
+        0.51
+      ],
+      "depth":[
+        0.0,
+        0.9
+      ],
+      "erosion": [
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.3,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:cold_beach",
+    "point": {
+      "continentalness": [
+        0.45,
+        0.51
+      ],
+      "depth":[
+        0.0,
+        0.9
+      ],
+      "erosion": [
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.12,
+        0.3
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:snowy_beach",
+    "point": {
+      "continentalness": [
+        0.45,
+        0.51
+      ],
+      "depth":[
+        0.0,
+        0.9
+      ],
+      "erosion": [
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        0.12
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:temperate_ocean",
+    "point": {
+      "continentalness": [
+        0.01,
+        0.45
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.3,
+        0.6
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:warm_ocean",
+    "point": {
+      "continentalness": [
+        0.01,
+        0.45
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.6,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:cold_ocean",
+    "point": {
+      "continentalness": [
+        0.01,
+        0.45
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.11,
+        0.3
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:frozen_ocean",
+    "point": {
+      "continentalness": [
+        0.01,
+        0.45
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.0,
+        0.11
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:deep_temperate_ocean",
+    "point": {
+      "continentalness": [
+        0.0,
+        0.01
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.3,
+        0.6
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:deep_warm_ocean",
+    "point": {
+      "continentalness": [
+        0.0,
+        0.01
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.6,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:deep_cold_ocean",
+    "point": {
+      "continentalness": [
+        0.0,
+        0.01
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.11,
+        0.3
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:deep_frozen_ocean",
+    "point": {
+      "continentalness": [
+        0.0,
+        0.01
+      ],
+      "depth":[
+        0.0,
+        1.0
+      ],
+      "erosion":[
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature":[
+        0.0,
+        0.11
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:cave",
+    "point": {
+      "continentalness": [
+        0.45,
+        1.0
+      ],
+      "depth":[
+        0.9,
+        0.942
+      ],
+      "erosion": [
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  },
+  {
+    "climates": "vanillaforged:cave_deep",
+    "point": {
+      "continentalness": [
+        0.45,
+        1.0
+      ],
+      "depth":[
+        0.942,
+        1.0
+      ],
+      "erosion": [
+        0.0,
+        1.0
+      ],
+      "humidity":[
+        0.0,
+        1.0
+      ],
+      "offset": 0,
+      "temperature": [
+        0.0,
+        1.0
+      ],
+      "weirdness": 0.0
+    }
+  }
+]

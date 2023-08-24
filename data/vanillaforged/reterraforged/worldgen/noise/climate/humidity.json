@@ -1,0 +1,138 @@
+{
+  "type": "reterraforged:freq",
+  "source": {
+    "type": "reterraforged:warp",
+    "domain": {
+      "type": "reterraforged:domain_warp",
+      "distance": {
+        "type": "reterraforged:constant",
+        "value": 60.0
+      },
+      "x": {
+        "type": "reterraforged:simplex",
+        "frequency": 0.0125,
+        "gain": 0.3,
+        "lacunarity": 2.4,
+        "octaves": 3
+      },
+      "y": {
+        "type": "reterraforged:simplex",
+        "frequency": 0.0125,
+        "gain": 0.3,
+        "lacunarity": 2.4,
+        "octaves": 3
+      }
+    },
+    "source": {
+      "type": "reterraforged:freq",
+      "source": {
+        "type": "reterraforged:sample_at_nearest_cell",
+        "cell_shape": "square",
+        "jitter": 0.8,
+        "source": {
+          "type": "reterraforged:warp",
+          "domain": {
+            "type": "reterraforged:domain_warp",
+            "distance": {
+              "type": "reterraforged:constant",
+              "value": 1.25
+            },
+            "x": {
+              "type": "reterraforged:perlin",
+              "frequency": 0.5,
+              "octaves": 2
+            },
+            "y": {
+              "type": "reterraforged:shift",
+              "amount": 1,
+              "source": {
+                "type": "reterraforged:perlin",
+                "frequency": 0.5,
+                "octaves": 2
+              }
+            }
+          },
+          "source": {
+            "type": "reterraforged:warp",
+            "domain": {
+              "type": "reterraforged:domain_warp",
+              "distance": {
+                "type": "reterraforged:constant",
+                "value": 3.75
+              },
+              "x": {
+                "type": "reterraforged:perlin",
+                "frequency": 0.14285715
+              },
+              "y": {
+                "type": "reterraforged:shift",
+                "amount": 1,
+                "source": {
+                  "type": "reterraforged:perlin",
+                  "frequency": 0.14285715
+                }
+              }
+            },
+            "source": {
+              "type": "reterraforged:humidity",
+              "power": 1,
+              "source": {
+                "type": "reterraforged:freq",
+                "source": {
+                  "type": "reterraforged:map",
+                  "max": {
+                    "type": "reterraforged:constant",
+                    "value": 1.0
+                  },
+                  "min": {
+                    "type": "reterraforged:constant",
+                    "value": 0.0
+                  },
+                  "source": {
+                    "type": "reterraforged:clamp",
+                    "max": {
+                      "type": "reterraforged:constant",
+                      "value": 0.875
+                    },
+                    "min": {
+                      "type": "reterraforged:constant",
+                      "value": 0.125
+                    },
+                    "source": {
+                      "type": "reterraforged:legacy_simplex",
+                      "frequency": 0.06666667
+                    }
+                  }
+                },
+                "x": {
+                  "type": "reterraforged:constant",
+                  "value": 0.5
+                },
+                "y": {
+                  "type": "reterraforged:constant",
+                  "value": 1.0
+                }
+              }
+            }
+          }
+        }
+      },
+      "x": {
+        "type": "reterraforged:constant",
+        "value": 0.0044444446
+      },
+      "y": {
+        "type": "reterraforged:constant",
+        "value": 0.0044444446
+      }
+    }
+  },
+  "x": {
+    "type": "reterraforged:constant",
+    "value": 0.46411484
+  },
+  "y": {
+    "type": "reterraforged:constant",
+    "value": 0.46411484
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:dripstone_caves",
+      "weight": 0.25
+    },
+    {
+      "value": "minecraft:lush_caves",
+      "weight": 0.15
+    },
+    {
+      "value": "minecraft:deep_dark",
+      "weight": 0.15
+    },
+    {
+      "value": "minecraft:plains",
+      "weight": 2.0
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "type": "reterraforged:freq",
+  "source": {
+    "type": "reterraforged:warp",
+    "domain": {
+      "type": "reterraforged:domain_warp",
+      "distance": {
+        "type": "reterraforged:constant",
+        "value": 0.2
+      },
+      "x": {
+        "type": "reterraforged:shift",
+        "amount": 76,
+        "source": {
+          "type": "reterraforged:perlin",
+          "frequency": 3.0,
+          "gain": 0.3,
+          "lacunarity": 2.2,
+          "octaves": 3
+        }
+      },
+      "y": {
+        "type": "reterraforged:shift",
+        "amount": 77,
+        "source": {
+          "type": "reterraforged:perlin",
+          "frequency": 3.0,
+          "gain": 0.3,
+          "lacunarity": 2.2,
+          "octaves": 3
+        }
+      }
+    },
+    "source": {
+      "type": "reterraforged:freq",
+      "source": {
+        "type": "reterraforged:falloff",
+        "min": 0.1,
+        "points": [
+          {
+            "max": 1.0,
+            "min": 1.0,
+            "point": 0.8
+          },
+          {
+            "max": 1.0,
+            "min": 0.55,
+            "point": 0.75
+          },
+          {
+            "max": 0.55,
+            "min": 0.5,
+            "point": 0.45
+          },
+          {
+            "max": 0.5,
+            "min": 0.25,
+            "point": 0.3
+          },
+          {
+            "max": 0.25,
+            "min": 0.1,
+            "point": 0.05
+          }
+        ],
+        "source": {
+          "type": "reterraforged:continent",
+          "cell_shape": "square",
+          "cell_source": {
+            "type": "reterraforged:choice",
+            "high": {
+              "type": "reterraforged:constant",
+              "value": 1.0
+            },
+            "low": {
+              "type": "reterraforged:constant",
+              "value": 0.0
+            },
+            "source": {
+              "type": "reterraforged:shift",
+              "amount": 6569,
+              "source": {
+                "type": "reterraforged:freq",
+                "source": {
+                  "type": "reterraforged:fractal",
+                  "gain": 2.75,
+                  "lacunarity": 0.3,
+                  "octaves": 2,
+                  "source": {
+                    "type": "reterraforged:cell_source",
+                    "value": "perlin"
+                  }
+                },
+                "x": {
+                  "type": "reterraforged:constant",
+                  "value": 0.2
+                },
+                "y": {
+                  "type": "reterraforged:constant",
+                  "value": 0.2
+                }
+              }
+            },
+            "threshold": {
+              "type": "reterraforged:constant",
+              "value": 0.525
+            }
+          },
+          "falloff": 1.0,
+          "jitter": 0.75
+        }
+      },
+      "x": {
+        "type": "reterraforged:constant",
+        "value": 0.002
+      },
+      "y": {
+        "type": "reterraforged:constant",
+        "value": 0.002
+      }
+    }
+  },
+  "x": {
+    "type": "reterraforged:constant",
+    "value": 0.46411484
+  },
+  "y": {
+    "type": "reterraforged:constant",
+    "value": 0.46411484
+  }
+}

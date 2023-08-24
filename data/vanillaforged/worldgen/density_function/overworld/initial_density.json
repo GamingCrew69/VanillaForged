@@ -1,0 +1,13 @@
+{
+  "type": "reterraforged:y_gradient",
+  "y": {
+    "type": "reterraforged:flat_cache",
+    "function": {
+      "type": "reterraforged:noise",
+      "noise": {
+        "type": "reterraforged:holder",
+        "value": "vanillaforged:terrain/blender"
+      }
+    }
+  }
+}

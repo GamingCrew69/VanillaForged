@@ -1,0 +1,94 @@
+{
+  "type": "reterraforged:scale",
+  "scale": {
+    "type": "reterraforged:constant",
+    "value": 1.2479999
+  },
+  "source": {
+    "type": "reterraforged:warp",
+    "domain": {
+      "type": "reterraforged:direction_warp",
+      "direction": {
+        "type": "reterraforged:shift",
+        "amount": 48,
+        "source": {
+          "type": "reterraforged:perlin",
+          "frequency": 0.1
+        }
+      },
+      "strength": {
+        "type": "reterraforged:constant",
+        "value": 2.0
+      }
+    },
+    "source": {
+      "type": "reterraforged:valley",
+      "amplitude": 0.2,
+      "blend_mode": "constant",
+      "falloff": 0.6,
+      "grid_size": 128.0,
+      "lacunarity": 3.1,
+      "octaves": 5,
+      "source": {
+        "type": "reterraforged:shift",
+        "amount": 47,
+        "source": {
+          "type": "reterraforged:warp",
+          "domain": {
+            "type": "reterraforged:domain_warp",
+            "distance": {
+              "type": "reterraforged:constant",
+              "value": 150.0
+            },
+            "x": {
+              "type": "reterraforged:perlin",
+              "frequency": 0.0028571428
+            },
+            "y": {
+              "type": "reterraforged:shift",
+              "amount": 1,
+              "source": {
+                "type": "reterraforged:perlin",
+                "frequency": 0.0028571428
+              }
+            }
+          },
+          "source": {
+            "type": "reterraforged:mul",
+            "modules": [
+              {
+                "type": "reterraforged:shift",
+                "amount": 45,
+                "source": {
+                  "type": "reterraforged:ridge",
+                  "frequency": 0.0016393443,
+                  "gain": 1.15,
+                  "interpolation": "curve3",
+                  "lacunarity": 2.35,
+                  "octaves": 4
+                }
+              },
+              {
+                "type": "reterraforged:alpha",
+                "alpha": {
+                  "type": "reterraforged:constant",
+                  "value": 0.075
+                },
+                "source": {
+                  "type": "reterraforged:shift",
+                  "amount": 46,
+                  "source": {
+                    "type": "reterraforged:perlin",
+                    "frequency": 0.041666668,
+                    "octaves": 4
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "strength": 0.65
+    }
+  }
+}

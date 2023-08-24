@@ -1,0 +1,20 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:plains",
+      "weight": 0.75
+    },
+    {
+      "value": "minecraft:forest",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:birch_forest",
+      "weight": 0.8
+    },
+    {
+      "value": "minecraft:old_growth_birch_forest",
+      "weight": 0.35
+    }
+  ]
+}

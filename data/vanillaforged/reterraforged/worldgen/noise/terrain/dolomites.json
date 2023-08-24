@@ -1,0 +1,266 @@
+{
+  "type": "reterraforged:scale",
+  "scale": {
+    "type": "reterraforged:constant",
+    "value": 0.75
+  },
+  "source": {
+    "type": "reterraforged:shift",
+    "amount": 65,
+    "source": {
+      "type": "reterraforged:warp",
+      "domain": {
+        "type": "reterraforged:domain_warp",
+        "distance": {
+          "type": "reterraforged:constant",
+          "value": 300.0
+        },
+        "x": {
+          "type": "reterraforged:perlin",
+          "frequency": 0.00125,
+          "octaves": 3
+        },
+        "y": {
+          "type": "reterraforged:shift",
+          "amount": 1,
+          "source": {
+            "type": "reterraforged:perlin",
+            "frequency": 0.00125,
+            "octaves": 3
+          }
+        }
+      },
+      "source": {
+        "type": "reterraforged:max",
+        "modules": [
+          {
+            "type": "reterraforged:mul",
+            "modules": [
+              {
+                "type": "reterraforged:shift",
+                "amount": 63,
+                "source": {
+                  "type": "reterraforged:warp",
+                  "domain": {
+                    "type": "reterraforged:domain_warp",
+                    "distance": {
+                      "type": "reterraforged:constant",
+                      "value": 8.0
+                    },
+                    "x": {
+                      "type": "reterraforged:perlin",
+                      "frequency": 0.1,
+                      "octaves": 2
+                    },
+                    "y": {
+                      "type": "reterraforged:shift",
+                      "amount": 1,
+                      "source": {
+                        "type": "reterraforged:perlin",
+                        "frequency": 0.1,
+                        "octaves": 2
+                      }
+                    }
+                  },
+                  "source": {
+                    "type": "reterraforged:map",
+                    "max": {
+                      "type": "reterraforged:constant",
+                      "value": 1.0
+                    },
+                    "min": {
+                      "type": "reterraforged:constant",
+                      "value": 0.0
+                    },
+                    "source": {
+                      "type": "reterraforged:clamp",
+                      "max": {
+                        "type": "reterraforged:constant",
+                        "value": 1.0
+                      },
+                      "min": {
+                        "type": "reterraforged:constant",
+                        "value": 0.3
+                      },
+                      "source": {
+                        "type": "reterraforged:shift",
+                        "amount": 62,
+                        "source": {
+                          "type": "reterraforged:legacy_simplex",
+                          "frequency": 0.002105263,
+                          "octaves": 4
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "reterraforged:alpha",
+                "alpha": {
+                  "type": "reterraforged:constant",
+                  "value": 0.875
+                },
+                "source": {
+                  "type": "reterraforged:warp",
+                  "domain": {
+                    "type": "reterraforged:domain_warp",
+                    "distance": {
+                      "type": "reterraforged:constant",
+                      "value": 30.0
+                    },
+                    "x": {
+                      "type": "reterraforged:shift",
+                      "amount": 0,
+                      "source": {
+                        "type": "reterraforged:legacy_simplex",
+                        "frequency": 0.025,
+                        "octaves": 5
+                      }
+                    },
+                    "y": {
+                      "type": "reterraforged:shift",
+                      "amount": 1,
+                      "source": {
+                        "type": "reterraforged:legacy_simplex",
+                        "frequency": 0.025,
+                        "octaves": 5
+                      }
+                    }
+                  },
+                  "source": {
+                    "type": "reterraforged:map",
+                    "max": {
+                      "type": "reterraforged:constant",
+                      "value": 1.0
+                    },
+                    "min": {
+                      "type": "reterraforged:constant",
+                      "value": 0.0
+                    },
+                    "source": {
+                      "type": "reterraforged:clamp",
+                      "max": {
+                        "type": "reterraforged:constant",
+                        "value": 0.675
+                      },
+                      "min": {
+                        "type": "reterraforged:constant",
+                        "value": 0.0
+                      },
+                      "source": {
+                        "type": "reterraforged:shift",
+                        "amount": 64,
+                        "source": {
+                          "type": "reterraforged:simplex_ridge",
+                          "frequency": 0.0025,
+                          "gain": 0.6,
+                          "lacunarity": 2.7,
+                          "octaves": 5
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "reterraforged:add",
+            "modules": [
+              {
+                "type": "reterraforged:scale",
+                "scale": {
+                  "type": "reterraforged:constant",
+                  "value": 0.65
+                },
+                "source": {
+                  "type": "reterraforged:power",
+                  "power": {
+                    "type": "reterraforged:constant",
+                    "value": 2.2
+                  },
+                  "source": {
+                    "type": "reterraforged:shift",
+                    "amount": 63,
+                    "source": {
+                      "type": "reterraforged:warp",
+                      "domain": {
+                        "type": "reterraforged:domain_warp",
+                        "distance": {
+                          "type": "reterraforged:constant",
+                          "value": 8.0
+                        },
+                        "x": {
+                          "type": "reterraforged:perlin",
+                          "frequency": 0.1,
+                          "octaves": 2
+                        },
+                        "y": {
+                          "type": "reterraforged:shift",
+                          "amount": 1,
+                          "source": {
+                            "type": "reterraforged:perlin",
+                            "frequency": 0.1,
+                            "octaves": 2
+                          }
+                        }
+                      },
+                      "source": {
+                        "type": "reterraforged:map",
+                        "max": {
+                          "type": "reterraforged:constant",
+                          "value": 1.0
+                        },
+                        "min": {
+                          "type": "reterraforged:constant",
+                          "value": 0.0
+                        },
+                        "source": {
+                          "type": "reterraforged:clamp",
+                          "max": {
+                            "type": "reterraforged:constant",
+                            "value": 1.0
+                          },
+                          "min": {
+                            "type": "reterraforged:constant",
+                            "value": 0.3
+                          },
+                          "source": {
+                            "type": "reterraforged:shift",
+                            "amount": 62,
+                            "source": {
+                              "type": "reterraforged:legacy_simplex",
+                              "frequency": 0.002105263,
+                              "octaves": 4
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "reterraforged:scale",
+                "scale": {
+                  "type": "reterraforged:constant",
+                  "value": 0.1
+                },
+                "source": {
+                  "type": "reterraforged:shift",
+                  "amount": 61,
+                  "source": {
+                    "type": "reterraforged:legacy_simplex",
+                    "frequency": 0.0125,
+                    "octaves": 4
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

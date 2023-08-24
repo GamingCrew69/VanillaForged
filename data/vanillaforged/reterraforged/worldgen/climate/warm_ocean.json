@@ -1,0 +1,12 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:lukewarm_ocean",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:warm_ocean",
+      "weight": 0.8
+    }
+  ]
+}

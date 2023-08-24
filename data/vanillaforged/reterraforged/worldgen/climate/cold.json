@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:taiga",
+      "weight": 1.0
+    },
+    {
+      "value": "minecraft:old_growth_spruce_taiga",
+      "weight": 0.5
+    },
+    {
+      "value": "minecraft:old_growth_pine_taiga",
+      "weight": 0.3
+    }
+  ]
+}

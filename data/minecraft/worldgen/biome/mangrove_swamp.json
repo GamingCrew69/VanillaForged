@@ -29,8 +29,8 @@
   },
   "features": [
     [
-      "terraforged:mangrove_swamp_lake",
-      "terraforged:mangrove_swamp_lake_low"
+      "vanillaforged:mangrove_swamp_lake",
+      "vanillaforged:mangrove_swamp_lake_low"
     ],
     [
       "minecraft:lake_lava_underground",

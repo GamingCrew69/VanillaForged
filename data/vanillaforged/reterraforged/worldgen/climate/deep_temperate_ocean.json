@@ -1,0 +1,8 @@
+{
+  "biomes": [
+    {
+      "value": "minecraft:deep_ocean",
+      "weight": 1.0
+    }
+  ]
+}
