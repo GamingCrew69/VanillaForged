@@ -13,10 +13,7 @@
       "fallback": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:water",
-          "Properties": {
-            "level": "0"
-          }
+          "Name": "minecraft:water"
         }
       },
       "rules": []
