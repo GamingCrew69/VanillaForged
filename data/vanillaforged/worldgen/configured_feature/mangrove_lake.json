@@ -2,10 +2,7 @@
   "type": "minecraft:delta_feature",
   "config": {
     "contents": {
-      "Name": "minecraft:water",
-      "Properties": {
-        "level": "0"
-      }
+      "Name": "minecraft:water"
     },
     "rim": {
       "Name": "minecraft:mud"
@@ -14,7 +11,7 @@
       "type": "minecraft:uniform",
       "value": {
         "max_inclusive": 16,
-        "min_inclusive": 0
+        "min_inclusive": 3
       }
     },
     "size": {
