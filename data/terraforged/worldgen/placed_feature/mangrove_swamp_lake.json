@@ -29,6 +29,18 @@
       "heightmap": "WORLD_SURFACE_WG"
     },
     {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 62
+        },
+        "min_inclusive": {
+          "absolute": 65
+        }
+      }
+    },
+    {
       "type": "minecraft:biome"
     }
   ]
